@@ -36,3 +36,9 @@
 
 # Percobaan 4
 ## Jawaban Pertanyaan
+
+<ol>
+  <li>
+    tidak berpengaruh karena perkalian didahulukan
+  </li>
+</ol>
