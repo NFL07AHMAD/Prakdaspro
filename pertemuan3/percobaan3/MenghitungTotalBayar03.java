@@ -7,7 +7,7 @@ public class MenghitungTotalBayar03 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
-    int harga;
+    double harga;
     double potongan, jml_bayar, diskon = 0.15;
 
     System.out.println("Masukkan harga");
