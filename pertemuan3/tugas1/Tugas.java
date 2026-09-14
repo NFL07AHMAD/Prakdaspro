@@ -17,14 +17,10 @@ public class Tugas {
     dp = sc.nextInt();
     System.out.println("Masukkan jumlah bulan cicilan");
     bulan = sc.nextInt();
-
-    sc.close();
-
-    bulan = sc.nextInt();
-
     sc.close();
 
     sisaHarga = harga - dp;
     jumlahCicilan = sisaHarga / bulan + bunga * sisaHarga;
+    System.out.println("Jumlah cicilan yang harus dibayar adalah " + jumlahCicilan);
   }
 }

@@ -18,7 +18,7 @@ public class GajiKaryawan3 {
     totalGaji = gajiPokok + tunjMkn + tunjTrans + bonus - (gajiPokok * 0.1);
 
     System.out.println("Bonus anda adalah " + bonus);
-    System.out.println("Total gaji anda adalah " + totalGaji);
+    System.out.println("Total gaji anda adalah " + (int) totalGaji);
 
     sc.close();
   }
