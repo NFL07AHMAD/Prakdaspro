@@ -110,7 +110,8 @@ public class AhmadNaufalFebriansyah {
     System.out.println(String.format("total keuntungan dari penjualan semua produk adalah Rp. %,d",
         (int) keuntunganProduk1 + (int) keuntunganProduk3 + (int) keuntunganProduk3));
     System.out
-        .println(String.format("Rata - rata keuntungan dari penjualan produk earphone adalah Rp. %,d", (int) rataRata));
+        .println(String.format("Rata - rata keuntungan dari penjualan produk earphone adalah Rp. %,d per produk",
+            (int) rataRata));
     System.out.println(
         "Persentase keuntungan yang dicapai dari keuntungan yang diharapkan adalah " + persentaseKeuntungan + "%");
     sc.close();
