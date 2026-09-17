@@ -55,18 +55,29 @@ public class Revisi {
       System.out.println(String.format("Keuntungan total produk ini adalah Rp. %,d", this.keuntunganTotal));
 
       this.konfirmasi(this::hitungKeuntunganTotal);
+      sc.close();
     }
 
-    public void JumlahItemPenghitungKeuntungan() = {
+    public void JumlahItemPenghitungKeuntungan() {
       Scanner sc = new Scanner(System.in);
 
       System.out.println("Masukkan faktor resiko kerusakan: ");
       this.resiko = sc.nextFloat();
-
+      this.jipk = this.jumlahJual - (this.resiko / 100 * this.jumlahJual);
+      sc.close();
     }
   }
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
+    Produk handphone = new Produk();
+    Produk kabel = new Produk();
+    Produk earphone = new Produk();
 
-    }
+    handphone.hitungKeuntunganItem();
+    handphone.hitungKeuntunganTotal();
+    kabel.hitungKeuntunganItem();
+    kabel.hitungKeuntunganTotal();
+    earphone.hitungKeuntunganItem();
+    earphone.hitungKeuntunganTotal();
+  }
 }
