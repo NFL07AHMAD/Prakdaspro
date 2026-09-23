@@ -8,7 +8,7 @@ public class SelectionSwitchAttendance03 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
-    System.out.println("PRINT KRS SIAKAD");
+    System.out.println("--- PRINT KRS SIAKAD ---");
     System.out.print("Enter you current semester: ");
     int semester = sc.nextInt();
     switch (semester) {

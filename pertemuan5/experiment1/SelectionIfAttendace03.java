@@ -11,7 +11,7 @@ public class SelectionIfAttendace03 {
       System.out.println("UKT Payment verified");
       System.out.println("Please print your KRS and ask your DPA to sign it");
       sc.close();
-    } else {
+    } else { // Question number 4
       System.out.println("Registration rejected. Please pay your UKT first");
     }
   }
