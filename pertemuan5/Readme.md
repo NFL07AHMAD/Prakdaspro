@@ -10,7 +10,7 @@ date: 2026-09-23T15:56:05Z
 1. Nilai yang harus dimasukkan adalah nilai `true`
 2. Tidak ada yang tercetak
 3. Program akan menjalankan statement pada kondisi true
-4. [SelectionIfAttendance03.java](url) 
+4. [SelectionIfAttendance03.java](experiment1/SelectionIfAttendance03.java) 
 
 ## Experiment 2 
 1. Case 6 akan ikut dijalankan
