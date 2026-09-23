@@ -4,6 +4,7 @@ public class SelectionIfAttendace03 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.println("--- PRINT KRS SIAKAD ---");
+    System.out.print("Has the UKT been paid? (true/false): ");
     boolean uktPaid = sc.nextBoolean();
 
     if (uktPaid) {
