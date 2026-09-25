@@ -45,7 +45,11 @@ pemilihan sederhana
 [SelectionSwitchAttendance.java](experiment2/SelectionSwitchAttendance.java) 
 [SelectionIfElseAttendance03.java](experiment2/SelectionIfAttendance03.java) 
 
-#### 2.2.2 Jawaban Pertanyaan / Pertanyaan Refleksi
+#### 2.2.2 Hasil Running
+
+![asciicast](recording/bukti2.svg) 
+
+#### 2.2.3 Jawaban Pertanyaan / Pertanyaan Refleksi
 
 * **Pertanyaan 1:** Hapus perintah break; pada case 5, lalu compile dan jalankan kembali program dengan masukan 5. Tuliskan keluaran yang muncul, lalu jelaskan apa fungsi break pada struktur SWITCH-CASE berdasarkan hasil percobaan Anda! Kembalikan kode seperti semula setelah selesai.
     * **Jawab:** Case 6 akan ikut dijalankan. Fungsi break pada SWITCH berfungsi untuk menghentikan statement dan melanjutkan statement di luar SWITCH-CASE
