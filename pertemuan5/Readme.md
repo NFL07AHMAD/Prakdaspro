@@ -21,6 +21,10 @@ pemilihan sederhana
 
 [SelectionIfAttendance03.java](experiment1/SelectionIfAttendance03.java) 
 
+#### 2.1.2 Hasil Running
+
+<script src="https://asciinema.org/a/Lk3judeZHVqM5WaO.js" id="asciicast-Lk3judeZHVqM5WaO" async="true"></script>
+
 #### 2.1.3 Jawaban Pertanyaan / Pertanyaan Refleksi
 
 * **Pertanyaan 1:** Nilai apa yang harus dimasukkan agar kedua baris di dalam blok IF ikut tercetak? Jelaskan mengapa hanya nilai tersebut yang diterima!
