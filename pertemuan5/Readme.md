@@ -23,7 +23,7 @@ pemilihan sederhana
 
 #### 2.1.2 Hasil Running
 
-[![asciicast](recording/bukti1.svg)
+![asciicast](recording/bukti1.svg)
 
 #### 2.1.3 Jawaban Pertanyaan / Pertanyaan Refleksi
 
