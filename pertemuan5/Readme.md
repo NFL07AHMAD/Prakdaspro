@@ -23,7 +23,7 @@ pemilihan sederhana
 
 #### 2.1.2 Hasil Running
 
-<script src="https://asciinema.org/a/Lk3judeZHVqM5WaO.js" id="asciicast-Lk3judeZHVqM5WaO" async="true"></script>
+[![asciicast](https://asciinema.org/a/1266525.svg)](https://asciinema.org/a/1266525)
 
 #### 2.1.3 Jawaban Pertanyaan / Pertanyaan Refleksi
 
