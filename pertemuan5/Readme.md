@@ -67,3 +67,16 @@ switch!
 
 * **Pertanyaan 4:** Buat file baru dengan nama PemilihanIfElseNoPresensi.java. Ubah program cetak KRS yang menggunakan SWITCH-CASE tersebut ke dalam bentuk IF - ELSE IF - ELSE, dengan ketentuan keluaran program harus sama persis dengan versi SWITCH-CASE, termasuk untuk masukan yang tidak valid. Menurut Anda mana yang lebih mudah dibaca untuk kasus ini, dan mengapa?
     * **Jawab:** [SelectionIfElseAttendance03.java](experiment2/SelectionIfElseAttendance03.java) Menurut saya yang lebih mudah dibaca adalah SWITCH-CASE karena lebih ringkas dan menghemat waktu karena variabel yang digunakan untuk kondisi adalah diskrit jadi tidak perlu menuliskan bentuk kondisi yang lengkap seperti pada IF-ELSE 
+
+## 3: TUGAS MANDIRI
+
+Berikut adalah daftar tugas yang dikerjakan pada Jobsheet ini:
+- [x] **Tugas 1:** Mengubah struktur IF-ELSE menjadi Ternary Operator
+- [x] **Tugas 2:** Membuat program berdasarkan *Flowchart* penentuan SKS
+- [x] **Tugas 1:** Mengimplementasikan studi kasus parkir & antrean
+
+### 3.1 Implementasi Kode Tugas
+
+* **Tugas 1:** [Assignment1SelectionAttendance03.java](assignment1/Assignment1SelectionAttendance03.java) 
+* **Tugas 2:** [Assignment2SelectionAttendance03.java](assignment2/Assignment2SelectionAttendance03.java) 
+* **Tugas 3:** [AssignmentParkingAttendance03.java](assignment3/AssignmentParkingAttendance03.java), [AssignmentQueueAttendance03.java](assignment3/AssignmentQueueAttendance03.java)  
