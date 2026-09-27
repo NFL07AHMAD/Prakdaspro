@@ -37,7 +37,7 @@ pemilihan sederhana
     * **Jawab:** Pada input TRUE, kode akan berjalan tapi jika input ya kode tidak berjalan karena kode hanya memahami nilai true dan false bukan ya dan tidak
 
 * **Pertanyaan 4:** Sistem perlu memberikan informasi apabila pengguna memasukkan nilai false, maka terdapat keluaran “Registrasi ditolak. Silakan lunasi UKT terlebih dahulu”. Modifikasi program tersebut dengan menambahkan struktur ELSE, , lalu tunjukkan hasil run untuk input true dan false!
-    * **Jawab:** [Hasil run](#-2.1.2-Hasil-Running) 
+    * **Jawab:** [Hasil run](#2.1.2-Hasil-Running) 
 ---
 
 ### 2.2 Percobaan 2: SWITCH-CASE untuk Mencetak KRS
