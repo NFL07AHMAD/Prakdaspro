@@ -80,3 +80,20 @@ Berikut adalah daftar tugas yang dikerjakan pada Jobsheet ini:
 * **Tugas 1:** [Assignment1SelectionAttendance03.java](assignment1/Assignment1SelectionAttendance03.java) 
 * **Tugas 2:** [Assignment2SelectionAttendance03.java](assignment2/Assignment2SelectionAttendance03.java) 
 * **Tugas 3:** [AssignmentParkingAttendance03.java](assignment3/AssignmentParkingAttendance03.java), [AssignmentQueueAttendance03.java](assignment3/AssignmentQueueAttendance03.java)  
+
+## 4: STUDY CASE
+
+Berikut adalah daftar study case yang dikerjakan:
+- [x] **Study Case 1:** Nusantara Pay - Sistem Keamanan Transaksi
+- [x] **Study Case 2:** UGD RS Harapan Kita - Alokasi Ruang Darurat
+- [x] **Study Case 3:** Konsultan Pajak - Kalkulator PPh 21 Progresif
+
+### 4.1 Implementasi Kode Study Case 
+
+* **Study Case 1:** [NusantaraPay](studycase1/NusantaraPay.java) 
+* **Study Case 2:** [ERRoomAlocation](studycase2/ERRoomAlocation.java) 
+* **Study Case 3:** [TaxConsultant](studycase3/TaxConsultant.java) 
+
+## 5: Kesimpulan
+
+Secara singkat. struktur pemilihan sangat penting digunakan untuk mengatus alur jalannya program berdasarkan variabel atau pilihan yang ditentukan oleh pengguna.
