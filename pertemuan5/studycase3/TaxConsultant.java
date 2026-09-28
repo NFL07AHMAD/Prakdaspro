@@ -26,6 +26,6 @@ public class TaxConsultant {
       pajak = lapisan3 + (PKP - 500000000) * 0.3;
     }
     sc.close();
-    System.out.println(String.format("Pajak yang harus dibayarkan adalah Rp.%,d", (int) pajak));
+    System.out.println(String.format("Pajak yang harus dibayarkan adalah Rp.%,.2f", pajak));
   }
 }
