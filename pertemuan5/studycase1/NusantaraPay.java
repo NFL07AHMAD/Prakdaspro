@@ -24,7 +24,7 @@ public class NusantaraPay {
     System.out.println("Is the transaction in the different country: ");
     isBedaNegara = sc.nextBoolean();
 
-    if (accountStat == "BLACK-LISTED") {
+    if (accountStat.equalsIgnoreCase("BLACK-LISTED")) {
       transactionStatus = "REJECTED_BLACKLIST";
     } else if(transactionAmount > balance) {
       transactionStatus = "REJECTED_SALDO";
@@ -32,7 +32,7 @@ public class NusantaraPay {
       transactionStatus = "FLAGGED_FRAUD";
     } else if (time >= 0000 && time <= 0400 && transactionAmount > 1000) {
       transactionStatus = "REQUIRE_OTP_NIGHT";
-    } else if (accountStat == "SUSPICIOUS" && transactionAmount > 500) {
+    } else if (accountStat.equals("SUSPICIOUS") && transactionAmount > 500) {
       transactionStatus ="REQUIRE_OTP_SUSPICIOUS";
     } else if (transactionAmount > 10000) {
       transactionStatus = "REJECTED_LIMIT";
