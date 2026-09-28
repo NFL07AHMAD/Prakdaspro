@@ -11,6 +11,7 @@ public class NusantaraPay {
     String accountStat;
     int balance, time, transactionAmount;
     boolean isBedaNegara;
+    String transactionStatus;
 
     System.out.print("Enter your account status: ");
     accountStat = sc.next();
@@ -24,19 +25,20 @@ public class NusantaraPay {
     isBedaNegara = sc.nextBoolean();
 
     if (accountStat == "BLACK-LISTED") {
-      System.out.println("REJECTED_BLACKLIST");
+      transactionStatus = "REJECTED_BLACKLIST";
     } else if(transactionAmount > balance) {
-      System.out.println("REJECTED_SALDO");
+      transactionStatus = "REJECTED_SALDO";
     } else if (isBedaNegara && transactionAmount > 2000) {
-      System.out.println("FLAGGED_FRAUD");
+      transactionStatus = "FLAGGED_FRAUD";
     } else if (time >= 0000 && time <= 0400 && transactionAmount > 1000) {
-      System.out.println("REQUIRE_OTP_NIGHT");
+      transactionStatus = "REQUIRE_OTP_NIGHT";
     } else if (accountStat == "SUSPICIOUS" && transactionAmount > 500) {
-      System.out.println("REQUIRE_OTP_SUSPICIOUS");
+      transactionStatus ="REQUIRE_OTP_SUSPICIOUS";
     } else if (transactionAmount > 10000) {
-      System.out.println("REJECTED_LIMIT");
+      transactionStatus = "REJECTED_LIMIT";
     } else {
-      System.out.println("APROVED");
+      transactionStatus = "APROVED";
     }
+    System.out.println(transactionStatus);
   }
 }
