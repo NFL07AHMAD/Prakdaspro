@@ -35,5 +35,6 @@ public class Task2AssistantSelection03 {
       status = "Student is not selected because is not active or under academic sanction";
     }
     System.out.println(status);
+    sc.close();
   }
 }
