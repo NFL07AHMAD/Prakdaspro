@@ -18,7 +18,7 @@
 
 #### 2.1.1 Kode Program Java
 
-[NestedThesisExam03.java](experiment1/NestedThesisExam03.java) 
+[NestedThesisExam03](experiment1/NestedThesisExam03.java) 
 
 #### 2.1.2 Hasil Running
 
@@ -29,7 +29,7 @@
 * **Pertanyaan 1:** Apa yang terjadi jika mahasiswa menjawab "No" pada pertanyaan bebas kompen? Mengapa demikian?
     * **Jawab:** Kode akan menjalankan statement di blok ELSE karena pada kondisi IF mengecek apakah `noPenalty` memiliki nilai `yes` sehingga ketika memasukkan nilai `no` akan menjalankan kode di blok ELSE
 
-* **Pertanyaan 2:** Jelaskan maksud dari potongan kode berikut!  `if (guidanceCount1 >= 8 && guidanceCount2 >= 4) {`{:.java}
+* **Pertanyaan 2:** Jelaskan maksud dari potongan kode berikut!  `if (guidanceCount1 >= 8 && guidanceCount2 >= 4) {`
     * **Jawab:** Kode tersebut adalah kondisi dalam IF yang mengecek apakah variable guidanceCount1 lebih dari sama dengan 8 **dan* guidanceCount lebih dari sama dengan 4. Karena dalam kondisi tersebut terdapat operator &&, maka kedua kondisi variable harus bernilai `true` agar bisa menghasilkan `true`
 
 * **Pertanyaan 3:** Bagaimana alur pemeriksaan syarat mahasiswa dari awal sampai akhir? Jelaskan secara runtut untuk semua kondisi!
@@ -44,11 +44,11 @@
 
 #### 2.2.1 Kode Program Java
 
-
+[LogicalOperatorWifi03](experiment2/LogicalOperatorWifi03.java) 
 
 #### 2.2.2 Hasil Running
 
-
+![experiment2](rec/experiment2.svg) 
 
 #### 2.2.3 Jawaban Pertanyaan / Pertanyaan Refleksi
 

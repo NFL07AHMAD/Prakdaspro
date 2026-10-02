@@ -14,7 +14,7 @@ public class LogicalOperatorWifi03 {
     isStudent = sc.nextBoolean();
     System.out.print("Is the user a lecturer? (true/false): ");
     isLecturer = sc.nextBoolean();
-    System.out.print("Is the account currently blocked (tre/false): ");
+    System.out.print("Is the account currently blocked (true/false): ");
     isBlocked = sc.nextBoolean();
 
     if ((isStudent || isLecturer) && !isBlocked) {
