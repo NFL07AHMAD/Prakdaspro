@@ -12,16 +12,17 @@
 3. Mahasiswa mampu menerapkan operator logika &&, ||, dan ! pada struktur pemilihan
 
 ---
-## 2: HASIL PERCOBAAN & ANALISIS
+## 1: HASIL PERCOBAAN & ANALISIS
 
 ### 2.1 Percobaan 1: Nested IF untuk Mengecek Syarat Ujian Skripsi
 
 #### 2.1.1 Kode Program Java
 
+[NestedThesisExam03.java](experiment1/NestedThesisExam03.java) 
 
 #### 2.1.2 Hasil Running
 
-
+![experiment1](rec/experiment1.svg) 
 
 #### 2.1.3 Jawaban Pertanyaan / Pertanyaan Refleksi
 

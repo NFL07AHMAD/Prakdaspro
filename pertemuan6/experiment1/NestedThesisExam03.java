@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import jdk.internal.jshell.tool.resources.l10n;
-
 /**
  * NestedThesisExam03
  */
