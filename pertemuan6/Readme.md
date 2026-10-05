@@ -90,6 +90,8 @@
 
 * **Pertanyaan 5:** Buat satu kombinasi masukan yang menyebabkan akses ditolak pada level pertama dan satu kombinasi yang menyebabkan akses ditolak pada level kedua.
     * **Jawab:** 
+        1. Kombinasi 1: true, true, false, false
+        2. Kombinasi 2: true, false, false, false
 
 ## 3: TUGAS MANDIRI
 
