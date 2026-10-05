@@ -94,3 +94,6 @@
 ## 3: TUGAS MANDIRI
 
 ### 3.1 Implementasi Kode Tugas
+
+* **Tugas 1:** [assigment1](assigment1/BookDiscount03.java) 
+* **Tugas 2:** [assigment2](assigment2/Task2AssistantSelection03.java) 
