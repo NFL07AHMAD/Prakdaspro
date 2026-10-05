@@ -71,11 +71,11 @@
 
 #### 2.3.1 Kode Program Java
 
-
+[experiment3](experiment3/NestedLabAccess03.java) 
 
 #### 2.3.2 Hasil Running
 
-
+![experiment3](rec/experiment3.svg) 
 
 #### 2.3.3 Jawaban Pertanyaan / Pertanyaan Refleksi
 
