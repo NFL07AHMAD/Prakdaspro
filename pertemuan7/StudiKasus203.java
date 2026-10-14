@@ -21,8 +21,8 @@ public class StudiKasus203 {
     fundingStat = sc.nextInt();
 
     if (activityType.equalsIgnoreCase("BELMAWA") || activityType.equalsIgnoreCase("BAKORMA") || activityType.equalsIgnoreCase("Mandiri")) {
-      if (documents < 4) {
-        if (rank < 4) {
+      if (documents >= 4) {
+        if (rank < 4 && rank > 0) {
           System.out.println("Dana pendanaan diberikan");
         } else {
           System.out.println("Peringkat kejuaraan tidak sesuai syarat. Dana pendanaan tidak diberikan"); 
@@ -31,7 +31,7 @@ public class StudiKasus203 {
         System.out.println("Dokumen tidak lengkap, kurang "+(4-documents)+" dokumen");
       }
     } else if (activityType.equalsIgnoreCase("pkm")) {
-      if (documents < 4) {
+      if (documents >= 4) {
         if (fundingStat == 1) {
           System.out.println("Dana pendanaan diberikan");
         } else {

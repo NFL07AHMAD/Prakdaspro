@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class StudiKasus103 {
   public static void main(String[] args) {
-    int hargaPerCup = 1800;
+    int hargaPerCup = 18000;
     int jumlahCup, uangBayar, totalHarga, diskon, totalBayar, kembalian, kurang;
     
     Scanner sc = new Scanner(System.in);

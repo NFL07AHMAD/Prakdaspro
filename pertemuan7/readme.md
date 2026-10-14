@@ -20,11 +20,16 @@ Berikut adalah tujuan pelaksanaan praktikum pada bab ini:
 
 #### 2.1.1 Kode Program Java
 
+[StudiKasus1](StudiKasus103.java) 
+
 #### 2.1.2 Hasil Running
 
 ### 2.2 Percobaan 3: Studi Kasus 2 – Pemilihan Bersarang
 
 #### 2.2.1 Kode Program Java
 
+[StudiKasus2](StudiKasus203.java) 
+
 #### 2.2.2 Hasil Running
+
 
