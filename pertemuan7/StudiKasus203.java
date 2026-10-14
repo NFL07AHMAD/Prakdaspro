@@ -13,14 +13,12 @@ public class StudiKasus203 {
     studentName = sc.next();
     System.out.print("Jenis kegiatan  : ");
     activityType = sc.next();
-    System.out.print("Jumlah dokumen  : ");
-    documents = sc.nextInt();
-    System.out.print("Peringkat juara : ");
-    rank = sc.nextInt();
-    System.out.print("Lolos pendanaan : ");
-    fundingStat = sc.nextInt();
 
     if (activityType.equalsIgnoreCase("BELMAWA") || activityType.equalsIgnoreCase("BAKORMA") || activityType.equalsIgnoreCase("Mandiri")) {
+      System.out.print("Jumlah dokumen  : ");
+      documents = sc.nextInt();
+      System.out.print("Peringkat juara : ");
+      rank = sc.nextInt();
       if (documents >= 4) {
         if (rank < 4 && rank > 0) {
           System.out.println("Dana pendanaan diberikan");
@@ -31,7 +29,11 @@ public class StudiKasus203 {
         System.out.println("Dokumen tidak lengkap, kurang "+(4-documents)+" dokumen");
       }
     } else if (activityType.equalsIgnoreCase("pkm")) {
+      System.out.print("Jumlah dokumen  : ");
+      documents = sc.nextInt();
       if (documents >= 4) {
+        System.out.print("Lolos pendanaan : ");
+        fundingStat = sc.nextInt();
         if (fundingStat == 1) {
           System.out.println("Dana pendanaan diberikan");
         } else {
