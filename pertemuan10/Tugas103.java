@@ -1,12 +1,17 @@
+import java.util.Scanner;
+
 /**
  * Tugas103
  */
 public class Tugas103 {
 
   public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Masukkan nilai n = ");
+    int n = sc.nextInt();
     int totalAngka = 0;
-    for (int i = 1; i <= 5; i++) {
-      for (int j = 1; j <= 5; j++) {
+    for (int i = 1; i <= n; i++) {
+      for (int j = 1; j <= n; j++) {
         if (j <= i) {
           System.out.print(j + " ");
           totalAngka++;
