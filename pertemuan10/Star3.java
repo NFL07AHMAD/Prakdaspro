@@ -15,6 +15,6 @@ public class Star3 {
       System.out.print(i);
     }
     System.out.println();
-    sc.close()
+    sc.close();
   }
 }

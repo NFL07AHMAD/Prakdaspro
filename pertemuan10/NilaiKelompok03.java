@@ -1,9 +1,12 @@
+import java.util.Scanner;
+
 /**
  * NilaiKelompok03
  */
 public class NilaiKelompok03 {
 
   public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
     System.out.print("Masukkan jumlah kelompok : ");
     int jumlahKelompok = sc.nextInt();
     System.out.print("Masukkan jumlah penilai : ");
