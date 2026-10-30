@@ -24,6 +24,8 @@ Berikut adalah tujuan pelaksanaan praktikum pada bab ini:
 
 #### 2.1.2 Hasil Running
 
+![Studikasis2](rec/studikasus1.svg) 
+
 ### 2.2 Percobaan 3: Studi Kasus 2 – Pemilihan Bersarang
 
 #### 2.2.1 Kode Program Java
@@ -32,4 +34,4 @@ Berikut adalah tujuan pelaksanaan praktikum pada bab ini:
 
 #### 2.2.2 Hasil Running
 
-
+![Studikasu2](rec/studikasus2.gif) 
