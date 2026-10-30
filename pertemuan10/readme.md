@@ -21,7 +21,11 @@ sederhana.
 
 #### 2.1.1 kode program
 
+[Star03.java](Star03.java) 
+
 #### 2.1.2 hasil running
+
+![Running](rec/exp1.gif) 
 
 #### 2.1.3 pertanyaan
 ##### Soal:
@@ -47,7 +51,11 @@ program dengan menekan Ctrl + C pada terminal.
 
 #### 2.2.1 Kode Program
 
+[Rectangle03.java](Rectangle03.java) 
+
 #### 2.2.2 Hasil Running
+
+![experiment2](rec/exp2.gif) 
 
 #### 2.2.3 Pertanyaan
 
@@ -65,7 +73,11 @@ ke GitHub.
 
 #### 2.3.1 Kode Program
 
+[Triangle03.java](Triangle03.java) 
+
 #### 2.3.2 Hasil Running
+
+![experiment3](rec/exp3.gif) 
 
 #### 2.3.3 Pertanyaan
 
@@ -81,6 +93,8 @@ yang diperlukan untuk membentuk segitiga terbalik.
 ### 2.4 Percobaan 4: Studi Kasus Nilai Tugas Proyek Kelompok
 
 #### 2.4.1 Kode Program
+
+[NilaiKelompok03.java](NilaiKelompok03.java) 
 
 #### 2.4.2 Hasil Running
 
@@ -100,3 +114,9 @@ membuat hasil salah apabila nilai awalnya 0.
 beserta perannya.
 
 ## 3: TUGAS
+
+### 3.1 Implementasi Kode Tugas
+
+1. [Tugas103.java](Tugas103.java) 
+2. [Tugas203.java](Tugas203.java) 
+3. [Tugas303.java](Tugas303.java) 
