@@ -17,7 +17,11 @@
 
 #### 2.1.1 Kode program
 
+[SiakadFor03](SiakadFor03.java) 
+
 #### 2.1.2 Hasil Running
+
+![experiment1](rec/exp1.gif) 
 
 #### 2.1.3 Pertanyaan
 
@@ -36,8 +40,6 @@ terjadi jika variabel tertinggi diinisialisasi 100 dan terendah diinisialisasi 0
       terendah = nilai;
     }
     ```
-```
-```
 4. Modifikasi kode program sehingga terdapat perhitungan untuk menentukan berapa
 mahasiswa yang lulus dan yang tidak lulus berdasarkan batas kelulusan (nilai minimal 60).
 Tampilkan jumlah mahasiswa lulus dan tidak lulus setelah menampilkan nilai tertinggi
@@ -53,21 +55,25 @@ dan terendah
 
 #### 2.2.1 Kode program
 
+[SiakadWhile03](SiakadWhile03.java)
+
 #### 2.2.2 Hasil Running
+
+![experiment2](rec/exp2.gif) 
 
 #### 2.2.3 Pertanyaan
 
 ##### Soal
 
 1. Pada potongan kode berikut, tentukan maksud dan kegunaan dari sintaks berikut:
-  ```java
-  if (nilai < 0 || nilai > 100) {
-    System.out.println("Nilai tidak valid. Masukkan lagi nilai yang valid!")
-    continue;
-  }
-  ```
-  1. nilai < 0 || nilai > 100
-  2. continue
+    ```java
+    if (nilai < 0 || nilai > 100) {
+      System.out.println("Nilai tidak valid. Masukkan lagi nilai yang valid!")
+      continue;
+    }
+    ```
+    1. nilai < 0 || nilai > 100
+    2. continue
 2. Mengapa sintaks i++ dituliskan di akhir perulangan WHILE? Apa yang terjadi jika posisinya
 dituliskan di awal perulangan WHILE?
 3. Apabila jumlah mahasiswa yang dimasukkan adalah 19, berapa kali perulangan WHILE
@@ -86,7 +92,11 @@ program menampilkan pesan tambahan "Bagus, pertahankan nilainya"
 
 #### 2.3.1 Kode program
 
+[CafeDoWhile03](CafeDoWhile03.java) 
+
 #### 2.3.2 Hasil Running
+
+![experiment3](rec/exp3.gif) 
 
 #### 2.3.3 Pertanyaan
 
@@ -105,3 +115,8 @@ inisialisasi dan update?
 2. Kondisi berhenti hanya ada pada ketika user memasukkan cancel pada input nama
 3. Fungsi dari penggunaan true pada kondisi teresebut adalah untuk do while terus berjalan sampai bertemu break
 4. Karena kondisi agar do while tersebut berupa true sehingga do while terus berjalan
+
+## 3. TUGAS MANDIRI
+
+1. [CinemaTickets03](CinemaTickets03.java) 
+2. [Parking03](Parking03.java) 
